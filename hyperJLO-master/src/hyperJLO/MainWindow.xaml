@@ -1,0 +1,13 @@
+<Window x:Class="hyperJLO.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:hyperJLO"
+        mc:Ignorable="d"
+        Title="hyperJLO" Height="160" Width="240" Closing="Window_Closing" ResizeMode="NoResize" Icon="Resource/icon.png">
+    <Grid>
+        <TextBlock Name="MesBlock" TextWrapping="Wrap" Text="test" Margin="10,10,10,81"/>
+        <Button Name="done" Content="Button" Margin="6,55,6,6" Click="done_Click" FontSize="16"/>
+    </Grid>
+</Window>
